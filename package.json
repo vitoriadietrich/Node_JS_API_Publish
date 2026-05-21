@@ -1,0 +1,20 @@
+{
+  "name": "api-publish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api2/contruindoAPI-7.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro-gabriel-bit/nodejs--api-publish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedro-gabriel-bit/nodejs--api-publish/issues"
+  },
+  "homepage": "https://github.com/pedro-gabriel-bit/nodejs--api-publish#readme"
+}
