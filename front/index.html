@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Consulta API</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de pedidos</h1>
+
+    <!-- Area de cadastro -->
+     <h2>Novo pedido</h2>
+     <input type="text" id="cliente" placeholder="nome do cliente">
+     <input type="text" id="produto" placeholder="nome do produto">
+     <button onclick="">Cadastrar pedido</button>
+
+     <!-- AREA DE ATUALIZACAO -->
+      <h2>Atualizar Status</h2>
+      <input type="number" id="idAtualizar " placeholder="ID do pedido">
+      <input type="text" id="statusAtualizar" placeholder="Novo Status">
+      <button onclick="">Atualizar</button>
+
+      <!-- AREA DE EXCLUIR -->
+       <h2>Cancelar Pedido</h2>
+       <input type="number" id="idRemover"
+       placeholder="ID do pedido">
+      <button onclick="">Cancelar</button>
+
+      <!-- LISTA DE PEDIDOS -->
+       <h2>Lista de Pedidos</h2>
+       <ul id="lista">Carregando pedidos...</ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
